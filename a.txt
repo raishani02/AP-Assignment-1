@@ -1,0 +1,14 @@
+Q1. 4c
+view function in PersonViewer is called through personviewer and call the relevant person's method 
+which is passed as parameter. (Run time polimorphism).
+
+Q1. 5e
+Disadventages:
+1. Case-2: It will need implementation for each and every kind of person explicitly which means do replicate code for every case. 
+2. Case-2: Overloading of fuunction explicitly for every kind of Person.
+3. Case-1: Run time polymorphism can lead to the performance issue as machine needs to decide which method or 
+   variable to invoke so it basically degrades the performances as decisions are taken at run time.
+
+Adventages:
+1. (Case-1) Reusability of code for different kind of Person.
+2. (Case-2) Easily detect type of Person on compile time.
